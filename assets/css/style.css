@@ -1,0 +1,200 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+.formulario div{
+    display: flex;
+    flex-direction: column;
+}
+#Jvalidaciones{
+    max-width: 14em;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+button, input{
+    
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    background-color: black;
+    color: white;
+}
+p{
+    height: 1px;
+    margin-bottom: 20% ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 14px;
+
+}.error1,.error2,.error3,.error4,.error5,.error6, .error8{
+    display: none;
+}.termino{
+    margin-top: 10%;
+}
+.error{
+    display: flex;
+    color: red;
+}
+.incorrect{
+    border: 1px solid red;
+}
+.correct{
+    border: 1px solid rgb(3, 160, 3);
+}
+.uError{
+    display:none;
+}
+.Perror{
+    display:flex;   
+    background-color: rgba(255, 0, 0, 0.589);
+    height: 3em;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.exito{
+    display:none;
+}
+.succes{
+    display:flex;   
+    background-color: rgba(0, 238, 99, 0.712);
+    height: 3em;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.ter{
+    display:none;
+    margin: 0;
+   
+}.mensaje{
+    color:white;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 4%;
+    border-radius: 5px;
+}
+.mensaje p{
+    font-size: 1.5em;
+    height: 100%;
+    margin-top: 3%;
+}
+.cerrar p{
+    font-size: 1.5em;
+    color: white;
+}
+.abrir{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(71, 69, 69, 0.753); 
+    position: relative;
+    margin-top: -74vh;
+}.m1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 2.3em;
+}button{
+    height: 2.3em;
+}#n{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}#tit{
+    font-size: 2em;
+    margin: 1%;
+   
+}
+@media screen and (min-width: 320px) and (max-width:480px) {
+    .abrir{
+          height: 100vh;
+          width: 100vw;
+          background-color: rgba(71, 69, 69, 0.753); 
+          position: relative;
+          margin-top: -77.5vh;
+    }.m1{
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+    }.mensaje{
+          color:white;
+          width: 90%;
+          background-color: rgba(0, 0, 0, 0.466);
+          padding: 5%;
+          border-radius: 5px;
+    }.mensaje p{
+          font-size: 1.2em;
+          height: 100%;
+          margin-top: 3%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:600px) {
+    .abrir{
+          height: 100vh;
+          width: 100vw;
+          background-color: rgba(71, 69, 69, 0.753); 
+          position: relative;
+          margin-top: -78.3vh;
+    }.m1{
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+    }.mensaje{
+          color:white;
+          width: 90%;
+          background-color: rgba(0, 0, 0, 0.466);
+          padding: 5%;
+          border-radius: 5px;
+    }.mensaje p{
+          font-size: 1.3em;
+          height: 100%;
+          margin-top: 3%;
+    }
+}
+@media screen and (min-width:601px) and (max-width: 900px) {
+    .abrir{
+         height: 100vh;
+          width: 100vw;
+          background-color: rgba(71, 69, 69, 0.753); 
+          position: relative;
+          margin-top: -75vh;
+    }.m1{
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+    }.mensaje{
+          color:white;
+          width: 80%;
+          background-color: rgba(0, 0, 0, 0.466);
+          padding: 5%;
+          border-radius: 5px;
+    }.mensaje p{
+          font-size: 1.5em;
+          height: 100%;
+          margin-top: 3%;
+    }
+}

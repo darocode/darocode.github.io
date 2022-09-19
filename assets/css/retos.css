@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inicio{
+    width: 10%;
+    margin: 1em;
+    height: 3em;
+    box-shadow: 10px 10px 99px 0px rgba(0,0,0,0.75);
+    background-color: rgb(49, 49, 49);
+}
+.inicio a{
+    text-decoration: none;
+    color: white;
+}
+.cambiar_color{
+    width: 80%;
+    height: 3em;
+    background-color: rgb(49, 49, 49);
+    margin: 2em;
+}
+
+.cambio{
+    width: 80%;
+    height: 3em;
+    background-color: aqua;
+    margin: 2em;
+}
+
+.color{
+    width: 80%;
+    height: 3em;
+    background-color: rgb(49, 49, 49);
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color button{
+    background: rgb(49, 49, 49);
+    border-color: antiquewhite;
+    color: white;
+
+    border-style: solid;
+    width: 12em;
+    height: 3em;
+    cursor: pointer;
+}
+
+.second{
+    width: 80%;
+    height: 3em;
+    background-color: rgb(101, 19, 19);
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second button{
+    background: rgb(49, 49, 49);
+    border-color: antiquewhite;
+    color: white;
+
+    border-style: solid;
+    width: 12em;
+    height: 3em;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background: rgb(99, 99, 99);
+    margin-top: 5%;
+    border-radius: 1%;
+    -webkit-box-shadow: 10px 10px 99px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 99px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 99px 0px rgba(0,0,0,0.75);
+
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.presionar{
+    background: rgb(49, 49, 49);
+    color: white;
+    border: none;
+    height: 3.5em;
+    width: 80%;
+    cursor: pointer;
+    margin: 2em;
+}
+#fondo{
+    background: rgb(49, 49, 49);
+    color: white;
+    height: 3.5em;
+    width: 80%;
+    cursor: pointer;
+    margin: 2em;
+}
+#palabra{
+    width: 80%;
+    border: none;
+    height: 2em;
+    font-size: 2em;
+    text-align: center;
+    margin: 1em;
+}
+label{
+    text-align: center;
+    color: white;
+}
+#reto{
+    background: rgb(49, 49, 49);
+    color: white;
+    height: 3.5em;
+    width: 80%;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    color: white;
+}

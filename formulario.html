@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Reto 6</title>
+</head>
+<body>
+      <h1>Registro de usuario</h1>
+
+<div class="formulario" id="formulario">
+      <form id="Jvalidaciones" action="validacion">
+      <div>
+            <label for="tipoDocumento">Tipo de documento:</label>
+            <select name="tipoDocumento" id="tipoDocumento" class="form-select" size="1">
+                  <option value="1">Cédula</option>  
+                  <option value="3">Otro</option>
+            </select>
+      </div>
+      <div>
+            <label for="" >Número de documento:</label>
+            <input name="docu" class="docu" id="docu" type="text" placeholder="Documento">
+            <p id="error1" class="error1">El campo solo admite numeros, minimo 3 y maximo 11</p>
+      </div>
+      <div>
+            <label for="">Nombre:</label>
+            <input name="nombre" class="nombre" id="nombre" type="text" placeholder="Nombre">
+            <p id="error2" class="error2">El campo solo acepta letras, minimo 4 letras</p>
+      </div>
+      <div>
+            <label for="">Apellido:</label>
+            <input name="apellido" class="apellido" id="apellido" type="text" placeholder="Apellido">
+            <p id="error3" class="error3">El campo solo acepta letras, minimo 4 letras</p>
+      </div>
+      <div>
+            <label for="">Fecha de nacimiento:</label>
+            <input name="fecha" class="fecha" id="fecha" type="date" placeholder="Fecha"  min="1930-01-01" max="2016-01-01">
+            <p id="error8" class="error8">Debe ser una fecha valida, mayor de edad</p>
+      </div>
+      <div>
+            <label for="">Correo:</label>
+            <input name="correo" class="correo" id="correo" type="text" placeholder="Correo">
+            <p id="error4" class="error4">Debe ser un correo valido</p>
+      </div>
+      <div>
+            <label for="">Contraseña:</label>
+            <input name="password" class="password" id="password" type="password" >
+            <p id="error5" class="error5">Minimo 4 caracteres</p>
+      </div>
+      <div>
+            <label for="">Confirmar contraseña:</label>
+            <input name="password2" class="password2" id="password2" type="password">
+            <p id="error6" class="error6">La contraseña debe conicidir</p>
+      </div>  
+            <div id="n"><div><input name="termino" type="checkbox" id="termino" class="termino"></div><div><a id="t">Aceptar términos de uso</a></div></div>    
+      <div>
+            <p id="uError" class="uError" >Debe completar el formulario</p>
+            <p id="exito" class="exito" >Formulario enviado</p>
+            <button  type="submit" id="send">Confirmar</button>      
+      </div>
+      </form>
+
+</div>
+<div id="ter" class="ter">
+      <div class="m1" id="m1">
+      <div id="mensaje" class="mensaje"><h1 id="tit" class="tit">Términos y condiciones</h1><p class="parr" id="parra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias dolore modi impedit quos enim ratione fugiat magnam magni excepturi velit sequi facilis, aliquid nostrum hic laborum vero doloremque optio!</p></div>
+      <div id="cerrar" class="cerrar"><p id="close">Aceptar</p></div> 
+      </div>  
+</div>
+ <script src="assets/js/form.js"></script>
+</body>
+</html>
